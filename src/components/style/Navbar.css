@@ -1,0 +1,12 @@
+nav{
+    background-color: #1B1B1B  !important;
+    color:white !important;
+}
+nav a{
+    color:white !important;
+}
+button#signUp{
+    background-color: white;
+    font-weight:600;
+    border-radius:10px;
+}

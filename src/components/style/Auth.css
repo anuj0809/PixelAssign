@@ -1,0 +1,148 @@
+body{
+	background-color: #1B1B1B;
+}
+.card{
+	border: none;
+	
+	background: #1B1B1B;
+	color: #57557A;
+}
+p{
+	font-weight: 600;
+	font-size: 15px;
+}
+.fab{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	background: #1B1B1B;
+	height: 40px;
+	width: 90px;
+}
+.fab:hover{
+	cursor: pointer;
+}
+.fa-twitter{
+	color: #56ABEC;
+}
+.fa-facebook{
+	color: #1775F1;
+}
+.fa-google{
+	color: #CB5048;
+}
+.division{
+	float: none;
+	position: relative;
+	margin: 30px auto 20px;
+	text-align: center;
+	width: 100%;
+    color:white;
+	box-sizing: border-box;
+}
+.division .line{
+	border-top: 1.5px solid white;
+	position: absolute;
+	top: 13px;
+	width: 135%;
+}
+.line.l{
+	left: 52px;
+}
+.line.r{
+	right: 45px;
+
+}
+.division span{
+	font-weight: 600;
+	font-size: 14px;
+}
+.myform{
+	padding: 0 25px 0 33px;
+}
+.form-control{
+	border: 1px solid #57557A;
+	border-radius: 10px;
+	background: white;
+    height:54px;
+    color:black;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+    text-align: center;
+	
+}
+.form-control:focus{
+	border: 1px solid #57557A;
+	
+	box-shadow: none;
+	
+	color: black;
+	letter-spacing: 1px;
+}
+
+.bn{
+	text-decoration: underline;
+    
+}
+.bn:hover{
+	cursor: pointer;
+}
+.form-check-input {
+    margin-top: 8px!important;
+    }
+#Sub{
+background-image: linear-gradient(to right, #27EECB 0%, #12D2D2 100%);
+border: none;
+width: 104px;
+color:black !important;
+margin-left:37%;
+
+border-radius: 10px;
+}
+#Sub:focus{
+	box-shadow: none;
+	border: none;
+}
+#Sub small{
+    font-weight: 500;
+}
+.far.fa-user{
+	font-size: 13px;
+}
+#google_btn{
+    width:100% !important; 
+}
+#google_btn button{
+    background-color:#C95252 ;
+    font-weight: 500;
+    height:54px;
+    border:none;
+    border-radius: 10px;
+    color:white;
+    width:100%;
+}
+
+@media(min-width: 767px){
+	.bn{
+		text-align: right;
+	}
+}
+@media(max-width: 767px){
+	.form-check{
+		text-align: center;
+	}
+	.bn{
+		text-align: center;
+		align-items: center;
+	}
+}
+@media(max-width: 450px){
+	.fab{
+		width: 100%;
+		height: 100%;
+	}
+	.division .line{
+		width: 50%;
+	}
+}

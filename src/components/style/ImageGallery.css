@@ -1,0 +1,30 @@
+div#image{
+   border: solid;
+   height:210px;
+   max-width:250px !important;
+    padding:0;
+    margin: 10px;
+}
+div#image img{
+    height:100%;
+    width:100%;
+}
+#image_container{
+   
+padding-left: 10%;  
+    
+}
+
+li.nav-item button{
+    width:396px;
+    border-width: 0.5px !important;
+    border-bottom:solid !important;
+    border-top-left-radius: 42px !important;
+    border-top-right-radius: 42px !important;
+}
+
+li.nav-item button.active{
+    height:47px;
+    border-width: 0.5px !important;
+    border-bottom:solid !important;
+}
